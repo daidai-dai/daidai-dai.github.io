@@ -1,0 +1,21 @@
+/*
+* @Author: anchen
+* @Date:   2020-06-15 12:43:57
+* @Last Modified by:   anchen
+* @Last Modified time: 2020-06-15 12:44:05
+*/
+  footer{
+            width: 100%;
+            background-color: #131313;
+
+        }
+        footer>div{
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+        footer p{
+            font-size: 12px;
+            line-height: 24px;
+            text-align: center;
+            color:#707479;
+        }

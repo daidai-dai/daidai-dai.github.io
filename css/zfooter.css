@@ -1,0 +1,33 @@
+/*
+* @Author: anchen
+* @Date:   2020-06-16 14:39:50
+* @Last Modified by:   anchen
+* @Last Modified time: 2020-06-29 16:20:09
+*/
+ footer{
+            width: 100%;
+            background-color:#2b2f33;
+
+        }
+        .footin{
+            width: 1200px;
+            margin:0 auto;
+        }
+         .footin h2{
+
+            margin:0 auto;
+            float:left;
+            margin-bottom: 4px;
+            margin-top: 4px;
+        }
+        .footin a,.footin h2{
+            display:block;
+        }
+        .footin p{
+            float:right;
+            color:#707479;
+            font-size: 10px;
+            line-height: 16px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }

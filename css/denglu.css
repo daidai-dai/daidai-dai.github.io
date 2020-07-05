@@ -1,0 +1,273 @@
+/*
+* @Author: anchen
+* @Date:   2020-06-15 12:41:38
+* @Last Modified by:   anchen
+* @Last Modified time: 2020-06-29 16:16:04
+*/
+ section{
+            background-color: #000;
+        }
+        header{
+            position:fixed;
+        }
+        .section-in{
+            width: 1200px;
+            margin:0 auto;
+            padding-top: 3vw;
+        }
+        .world{
+            float:left;
+            margin-left:10%;
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+        .world a{
+            font-size: 20px;
+            line-height: 20px;
+            text-align:center;
+            color:#fde5db;
+        }
+        .world span{
+             font-weight: bold;
+             font-size: 28px;
+             margin-left: -4%;
+        }
+        .world a:last-child{
+            display:block;
+            width: 70%;
+           margin-left:4%;
+           border:2px solid #fde5db;
+           font-size: 18px;
+           margin-top: 30px;
+           border-radius: 50px;
+           padding:2px 3px;
+        }
+        section .pic{
+            float:left;
+            width:130px;
+            margin-top: 116px;
+            margin-left: 10%;
+
+        }
+        section .pic img{
+            width: 100%;
+        }
+        section .right{
+            float:right;
+            background-color: #fff;
+            width: 30%;
+            border-radius: 4px;
+            margin-top: 90px;
+            margin-right: 1.3%;
+            margin-bottom: 40px;
+        }
+         section .right ul{
+            width: 80%;
+            margin:0 auto;
+            margin-bottom: 30px;
+
+            /*background-color: red;*/
+         }
+         section .right ul li{
+            float:left;
+            margin-right: 15px;
+            margin-top: 40px;
+         }
+         section .right ul li a{
+            display:block;
+            font-size: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color:#c2c4c6;
+
+         }
+         section .right ul li:first-child{
+
+            margin-left: 15px;
+
+
+         }
+        /* section .right ul li:first-child a{
+
+            color:black;
+
+         }*/
+          section .right ul li:last-child {
+           float:right;
+         }
+         .form1,.form2{
+            display:none;
+            margin-left: 8%;
+         }
+         .form1>.div{
+            width: 90%;
+
+            border-radius:3px;
+
+            border:1px solid #d4d4d4;
+            margin-bottom: 20px;
+         }
+         .form2>.div1{
+            width: 55%;
+
+            border-radius:3px;
+
+            border:1px solid #d4d4d4;
+            margin-bottom: 20px;
+         }
+         .form1>.div>input{
+            width: 88%;
+            font-size: 10px;
+            height: 30px;
+            color:#d4d4d4;
+            float:right;
+            border:0;
+            border-left:1px solid #d4d4d4;
+
+         }
+        .form2>.div1>input{
+            width: 55%;
+            font-size: 10px;
+            height: 30px;
+            color:#d4d4d4;
+            float:right;
+            border:0;
+            border-left:1px solid #d4d4d4;
+
+         }
+         .form1>.div>span,.form2>.div1>span{
+            display:block;
+            width: 16px;
+            height: 16px;
+            float:left;
+            margin-left: 6px;
+            margin-top: 6px;
+         }
+         .form1>.div>span>img,.form2>.div1>span>img{
+            width: 100%;
+         }
+         .form1 .in3,.form2 .in3{
+            width: 55%;
+            font-size: 10px;
+            height: 30px;
+            border-radius:3px;
+            color:#d4d4d4;
+            border:1px solid #d4d4d4;
+            margin-bottom: 20px;
+         }
+         input,button{
+            outline:0;
+            resize: none;
+         }
+         .form1>a,.form2>a{
+            float:right;
+            margin-right: 8%;
+            color:black;
+            font-size: 12px;
+            transition:all 0.2s;
+         }
+         .form1 button,.form2 .btn2{
+            width: 91%;
+            background-color: #f5c26b;
+            line-height: 30px;
+            color:white;
+            text-align: center;
+            border:none;
+            border-radius: 4px;
+            margin-top: 20px;
+            margin-bottom: 45px;
+         }
+         .form1 .bom,.form2 .bom{
+            width: 90%;
+            margin-bottom: 18px;
+
+         }
+         section .form1 .bom a, section .form2 .bom a{
+
+            float：left;
+             color:black;
+            font-size: 12px;
+            transition:all 0.2s;
+         }
+        section .form1 .bom .wx,section .form2 .bom .wx{
+            float:right;
+            margin-right: 2%;
+        }
+        .vx{
+            padding-left: 24px;
+            padding-top: 2px;
+            padding-bottom: 3px;
+            background-image: url("../images/QQ-weixin_02.png");
+            background-repeat: no-repeat;
+        }
+        .form1>a:hover,.form2>a:hover{
+            color:#f5c26b;
+        }
+        .form1 .bom a:hover,.form2 .bom a:hover{
+            color:#f5c26b;
+        }
+        .form1 .yan{
+            float:right;
+            width: 30%;
+            margin-right:10%;
+
+        }
+        .form1 .yan img{
+            width: 100%;
+            border-radius: 2px;
+        }
+        .form2 .yan{
+            float:right;
+            width: 30%;
+            margin-right:10%;
+        }
+        .form2 .yan img{
+            width: 100%;
+            border-radius: 2px;
+        }
+        .form2 .div1{
+            width: 55%;
+        }
+        .form2>.div1>input{
+            width: 80%;
+        }
+         .form2>.in{
+            width: 90%;
+
+            border-radius:3px;
+            float:left;
+            border:1px solid #d4d4d4;
+            margin-bottom: 20px;
+             font-size: 10px;
+            height: 30px;
+            color:#d4d4d4;
+         }
+        .form2{
+            position: relative;
+            display:none;
+        }
+         .form2 .btn1{
+            position:absolute;
+            top:11%;
+            left:60%;
+            width: 30%;
+            float:right;
+            background-color: #f5c26b;
+            line-height: 30px;
+            color:white;
+            text-align: center;
+            border:none;
+            border-radius: 4px;
+            margin-top: 20px;
+            margin-bottom: 45px;
+
+         }
+         .show{
+            display:block;
+         }
+         .xian{
+            border-bottom: 1px solid black;
+         }
+        section .right .color{
+            color:black;
+        }
